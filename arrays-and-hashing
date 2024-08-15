@@ -1,0 +1,7 @@
+var isAnagram = function(s, t) {
+    arr1 = s.split("").sort().join("")
+    arr2 = t.split("").sort().join("")
+    return (arr1 === arr2);
+};
+
+
